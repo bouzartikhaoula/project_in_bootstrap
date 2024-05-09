@@ -1,14 +1,17 @@
 :root{
 --dark-color:#19283f;
 --green-color:#33d1cc; 
+--red-color:#ff3150;
+--yellow-color:#ffc400;
+
 }
 
 body{
-    height: 1000px;
+    /* height: 1000px; */
 }
 .navbar{
  background-color: var(--dark-color);
-
+position: sticky;
  
 }
 .btn-outline-success {
@@ -42,10 +45,28 @@ font-family: cursive;
     color: var(--green-color);
 }
 .navbar .btn{
-    background-color:  var(--green-color);
+    background-color:  var(--red-color);
+    color: var(--yellow-color);
     border: 0;
+    width: 80px;
 }
 .navbar .btn:hover{
     background-color:  white;
-    color: var(--green-color);
+    color: var(--red-color);
+}
+.landing{
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 64px);
+    text-align: center;
+   
+}
+.landing .btn{
+    background-color:  var(--red-color);
+    border: 0;
+    width: fit-content;
+    color: var(--yellow-color);
+}
+.landing .btn:hover{
+    background-color:  white;
+    color: var(--red-color);
 }
