@@ -3,12 +3,14 @@
 --green-color:#33d1cc; 
 --red-color:#ff3150;
 --yellow-color:#ffc400;
+--section-color:#eff7fa;
 
 }
 
 body{
     /* height: 1000px; */
 }
+/* start nav section */
 .navbar{
  background-color: var(--dark-color);
 position: sticky;
@@ -54,6 +56,8 @@ font-family: cursive;
     background-color:  white;
     color: var(--red-color);
 }
+ /* end nav section */
+ /* start landing section */
 .landing{
     background-color: var(--dark-color);
     min-height: calc(100vh - 64px);
@@ -70,3 +74,46 @@ font-family: cursive;
     background-color:  white;
     color: var(--red-color);
 }
+
+ /* end landing section */
+
+ /* strat Features Section */
+ .main-title::after {
+    content: '';
+    height: 2px;
+    width: 120px;
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: -20px;
+    left :50%;
+    transform: translate(-50%);
+ }
+.features  .fs-1{
+    color: var(--yellow-color);
+}
+.features  .fs-1:hover{
+    color: var(--red-color);
+}
+
+.features .icon-holder{
+height: 200px;
+}
+
+.features .icon-holder svg{
+transform: translate(-50%);
+left: 50%;
+}
+
+.features .icon-holder .number{
+color: var(--section-color); 
+font-size: 12rem;
+}
+.features .icon-holder .icon{
+    color: var(--green-color); 
+    }   
+.features h4{
+color: var(--yellow-color);  
+margin-bottom: 0;      }
+        
+
+  /* end Features Section */
