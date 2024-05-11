@@ -114,6 +114,66 @@ font-size: 12rem;
 .features h4{
 color: var(--yellow-color);  
 margin-bottom: 0;      }
-        
-
   /* end Features Section */
+/* start our-work section */
+.our-work{
+    background-color: var(--section-color);
+    
+}
+.our-work .fs-1{
+    color: var(--yellow-color);
+}
+
+.our-work ul .active{
+    background-color: var(--red-color);
+    color: var(--yellow-color);
+width: 3rem;
+}
+.our-work ul li:not(.active):hover{
+    color: var(--red-color);
+    cursor: pointer;
+}
+.our-work ul li{
+    padding: 0.5rem;
+}
+.our-work .img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.our-work .box{
+    padding: 5px;
+    overflow: hidden;
+    position: relative;
+}
+.our-work .box::before{
+    content: attr(data-work);
+    position: absolute;
+    color: #eff7fa;
+    background-color: #33d1cc55;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    transform: translate(50px, 50px) rotate(0deg) scale(0);
+
+} 
+.our-work .box:hover::before{
+    transform: translateX(0);
+
+}
+
+.our-work .btn{
+    color: var(--yellow-color);
+    background-color: var(--red-color);
+    border: 0;
+}
+.our-work .btn:hover ,.btn:focus{
+    color: var(--red-color);
+    background-color: var(--section-color);
+    border: 2px solid;
+}
+
+/* end our-work section */
