@@ -177,3 +177,24 @@ width: 3rem;
 }
 
 /* end our-work section */
+
+/* start stuff section */
+.stuff .description {
+    width: 448px;}
+
+    .stuff .btn{
+        color: var(--yellow-color);
+        background-color: var(--red-color);
+        border: 0;
+    }
+    .stuff .btn:hover {
+        color: var(--red-color);
+        background-color: var(--section-color);
+        border: 2px solid;
+    }
+    .stuff .image{
+        margin: auto;
+        width: 399px;
+        height: 293px;
+    }
+    /* end stuff section */
