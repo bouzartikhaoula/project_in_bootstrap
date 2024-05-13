@@ -205,7 +205,7 @@ width: 3rem;
 
     }
     .team h2{
-color: var(--yellow-color);
+        color: var(--yellow-color);
     }
     .team p{
         width: 550px;
@@ -215,3 +215,33 @@ color: var(--yellow-color);
         background-color: var(--green-color);
     }
     /* end team */
+     /* start project section */
+.project{
+    background-color: var(--dark-color);
+}
+.project p{
+    width: 550px;
+}
+.project .btn{
+    color: var(--yellow-color);
+    background-color: var(--red-color);
+    border: 0;
+}
+.project .btn:hover ,.btn:focus{
+    color: var(--red-color);
+    background-color: var(--section-color);
+    border: 2px solid;
+}
+          /* end project section */
+/* start blog section */
+.blog .btn{
+    color: var(--yellow-color);
+    background-color: var(--red-color);
+    border: 0;
+}
+.blog .btn:hover ,.btn:focus{
+    color: var(--red-color);
+    background-color: var(--section-color);
+    border: 2px solid;
+}
+/* end blog section */
