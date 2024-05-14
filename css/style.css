@@ -88,10 +88,10 @@ font-family: cursive;
     left :50%;
     transform: translate(-50%);
  }
-.features  .fs-1{
+ .fs-1{
     color: var(--yellow-color);
 }
-.features  .fs-1:hover{
+  .fs-1:hover{
     color: var(--red-color);
 }
 
@@ -245,3 +245,23 @@ width: 3rem;
     border: 2px solid;
 }
 /* end blog section */
+/* start subscribe */
+.subscribe{
+    background-color: var(--yellow-color);
+}
+.subscribe .in{
+    border: none;
+    border-bottom: 2px solid white;
+}
+.subscribe .in:focus{
+   outline: none;
+}
+.subscribe ::placeholder{
+color: #eff7fa;
+}
+.subscribe .btn{
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+}
+
+/* end subscribe */
