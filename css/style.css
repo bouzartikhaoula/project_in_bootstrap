@@ -265,3 +265,32 @@ color: #eff7fa;
 }
 
 /* end subscribe */
+/* start footer */
+.footer{
+    background-color: var(--dark-color);
+
+}
+.footer .footer-logo{
+    font-size: 1.5rem;
+    color: var(--green-color);
+    text-decoration: none;
+    white-space: nowrap;
+font-family: cursive;
+}
+.footer .btn{
+    background-color:  var(--red-color);
+    color: var(--yellow-color);
+    border: 0;
+    width: fit-content;
+}
+.footer .btn:hover{
+    background-color:  white;
+    color: var(--red-color);
+}
+.footer .copyright > span{
+    color: var(--green-color);
+}
+.footer .copyright div span{
+    color: var(--yellow-color);
+}
+/* end footer */
